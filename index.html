@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人 IP 作品集 | 大學四年專題展示</title>
+    <!-- 引入外部 CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome 圖示庫 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 頂部導覽列 -->
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#project">畢業專題</a></li>
+            <li><a href="#skills">專業技能</a></li>
+            <li><a href="#contact">聯絡方式</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- 主頁 Hero 區塊 -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>你好，我是 <span class="highlight">[您的名字]</span></h1>
+            <p class="subtitle">大學畢業專題展示與個人品牌網站</p>
+            <p class="description">熱衷於將創意轉化為現實，專注於 [您的專業領域，例如：全端開發 / 人工智慧 / UIUX 設計]。</p>
+            <div class="hero-buttons">
+                <a href="#project" class="btn primary-btn">查看畢業專題</a>
+                <a href="#contact" class="btn secondary-btn">聯絡我</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我 -->
+    <section id="about" class="section">
+        <h2 class="section-title">關於我 <span>About Me</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>我是 [畢業學校與科系] 的畢業生。在大學四年的學習過程中，我不僅累積了扎實的專業知識，更透過專題實作培養了獨立解決問題與團隊協作的能力。</p>
+                <p>這座網站記錄了我在大學四年期間最核心的專題成果與學習歷程，展現我的技術實力與設計思維。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 畢業專題展示區塊 -->
+    <section id="project" class="section bg-alt">
+        <h2 class="section-title">畢業專題 <span>Featured Project</span></h2>
+        
+        <div class="project-card">
+            <div class="project-img">
+                <!-- 可在此處替換為您的專題截圖: <img src="your-image.jpg" alt="專題預覽"> -->
+                <div class="img-placeholder">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <p>專題成果畫面 / Demo 影片</p>
+                </div>
+            </div>
+            <div class="project-info">
+                <span class="badge">大學四年核心專題</span>
+                <h3>[專題名稱：例如 AI 智慧居家監控系統]</h3>
+                <p class="project-desc">
+                    這裡填寫專題的核心介紹。說明這個專題解決了什麼痛點、使用何種技術架構（如演算法、資料庫設計或前端互動），以及最終達成的效益與成果亮點。
+                </p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub 專案</a>
+                    <a href="#" target="_blank" class="btn-link"><i class="fa-solid fa-external-link"></i> 線上展示 / 簡報</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 專業技能區塊 -->
+    <section id="skills" class="section">
+        <h2 class="section-title">專業技能 <span>Skills & Expertise</span></h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-code"></i> 程式語言</h3>
+                <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>Python / C++</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-cubes"></i> 框架與工具</h3>
+                <ul>
+                    <li>Git / GitHub 版本控制</li>
+                    <li>Node.js / Express</li>
+                    <li>UI/UX 設計 (Figma)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-lightbulb"></i> 軟實力</h3>
+                <ul>
+                    <li>專案管理與時程規劃</li>
+                    <li>跨領域團隊溝通</li>
+                    <li>問題分析與獨立解決</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡方式區塊 -->
+    <section id="contact" class="section bg-alt">
+        <h2 class="section-title">聯絡方式 <span>Contact Me</span></h2>
+        <div class="contact-container">
+            <p>歡迎與我交流、討論技術或探討合作機會！</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>your.email@example.com</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub 頁面</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn 頁面</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 [您的名字]. All Rights Reserved.</p>
+    </footer>
+
+    <!-- 引入外部 JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
